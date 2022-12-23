@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz@16..144&family=Poppins&family=Raleway&display=swap');
+
+
+*{
+    font-family: 'Montagu Slab', serif;
+}
+body{
+    background-color: #256D85 !important;
+}
+
+.form-group {
+    width: 500px;
+    margin: auto;
+}
+
+
+#loginform{
+    background-color: #256D85;
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius : 20px;
+    padding: 10px;
+    box-shadow: 0 20px 30px 0 rgba(0,0,0,0.5);
+}
+
+#titlelogin {
+    text-align: center;
+    font-size:30px;
+    padding-top: 0.6em;
+    color:lightgray;
+    font-weight: bold;
+    margin-bottom: -20px;
+}
+
+#uname {
+    font-weight: bold;
+    font-size:24px;
+    color: black;
+    margin-bottom: -20px;
+}
+
+#pword {
+    font-weight: bold;
+    font-size:24px;
+    color: black;
+    margin-bottom: 50px;
+}
+
+.form-group{
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 40px;
+}
+
+input[type=text] {
+    border: 1px solid #3dc3e1;
+    border-radius: 8px;
+    background-color: white;
+    color:#3dc3e1;
+}
+
+input[type=email] {
+    border: 1px solid #3dc3e1;
+    border-radius: 8px;
+    background-color: white;
+    color:#3dc3e1;
+}
+
+input[type=password] {
+    border: 1px solid #256D85;
+    border-radius: 8px;
+    background-color: white;
+    color:#256D85;
+    margin-bottom: 1em;
+}
+
+#loginbutton{
+    height: 50px;
+    width: 400px;
+    background-color: white;
+    border: 1px solid #256D85;
+    border-radius: 10px;
+    color:black;
+    transition: all 0.3s ease-in-out;
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+#loginbutton:hover{
+    background-color:white ;
+    color: #256D85;
+    border-color: #256D85;
+}
+
+#signupbutton{
+    height: 50px;
+    width: 150px;
+    border: 2px solid lightgray;
+    border-radius: 15px;
+    color:lightgray;
+    transition: all 0.3s ease-in-out;
+    font-size: 24px;
+    margin-bottom: 1em;
+    margin-left: 300px;
+}
+
+#signupbutton:hover{
+    background-color:#256D85;
+    color: black;
+    
+}
+
+
+#createbutton{
+    background-color:transparent;
+    height: 55px;
+    width: 200px;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: black;
+    transition: all 0.3s ease-in-out;
+    margin-top: 1.5em;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+#createbutton:hover{
+    background-color:white !important;
+    color: #256D85 !important;
+    border-color: #256D85 !important;
+}
+
+#already{
+    text-align: center;
+    font-size: 1.2em;
+    color: white;
+    margin-left: 300px;
+}
+
+#warning{
+    text-align: center;
+    color: red;
+    font-size: 18px;
+    margin-left: 70px;
+    
+}
+
+#loginhere {
+    text-decoration: none;
+    color: rgb(103, 235, 42) !important;
+    transition: all 0.3s ease-in-out;
+}
+
+#loginhere:hover{
+    color: rgb(165, 247, 165) !important;
+    font-size: 110%;
+}
+.header-signup h3{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: lightgray;
+}
+#main-menu .main-menu .form-group{
+    margin-bottom: -30px;
+    margin-left: 300px;
+}
+
+.main-menu #buatakun ul li #warningakun{
+    text-align: center;
+    color: red;
+    font-size: 18px;
+    margin-left: 300px;
+}
+
+.main-menu .form-group #pword{
+    margin-bottom: -50px;
+    color: lightgray;
+}
+.main-menu .form-group #uname{
+    color: lightgray;
+}
+.main-menu .form-group #photo{
+    color: lightgray;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+
+
+
+
+

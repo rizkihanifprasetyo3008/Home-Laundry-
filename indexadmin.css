@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz@16..144&family=Poppins&family=Raleway&display=swap');
+
+
+*{
+    font-family: 'Montagu Slab', serif;
+}
+body{
+    background-color: #256D85 !important;
+}
+
+#status table{
+    background-color: lightskyblue;
+    border: 1px solid;
+}
+
+#nav .card{
+    background-color: lightgray;
+}
+
+#status table tr th{
+    justify-content: center;
+    align-items: center;
+}

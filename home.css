@@ -1,0 +1,279 @@
+*{
+    font-family: 'Montagu Slab', serif;
+}
+
+body{
+    background-color: #101719 !important;
+}
+.container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+
+/* Tulisan Utama Di menu */
+.main-menu h1{
+    font-size: 3.5em;
+    color: #e63939;
+    font-weight: bold;
+}
+.main-menu h2{
+    color:#b1d2d9;
+    font-size:2.2em;
+}
+
+/* menambahkan foto background */
+#main-menu{
+    background-image: url('./image/laundry2.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 750px;
+    z-index: 1;
+    position: relative;
+    margin-bottom: -80px;
+}
+    /* mengedit foto background agar menjadi latar belakang,warna hitam */
+#main-menu:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #002B5B;
+    opacity: .7;
+    z-index: -1;
+}
+#main-menu .main-menu{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 50px;
+    justify-content: flex-start;
+
+}
+    /* mengedit tulisan yang berada di header 1(h1) */
+#main-menu h1{
+    display: block;
+    width: 100%;
+    font-size: 42px;
+    position: relative;
+    color: transparent;
+    animation: animasitext .5s ease forwards;
+    animation-delay: 1.5s;
+}
+#main-menu p{
+    display: block;
+    width: 100%;
+    font-size: 42px;
+    position: relative;
+    color: transparent;
+    animation: animasinama .5s ease forwards;
+    animation-delay: 3.7s;
+}
+    /* mengedit animasi untuk masing-masing header 1 menggunakan nth-child */
+#main-menu h1:nth-child(1){
+    animation-delay: 2s;
+}
+#main-menu h1:nth-child(2){
+    animation-delay: 3s;
+}
+#main-menu h1:nth-child(3){
+    animation-delay: 4s;
+}
+#main-menu p:nth-child(1){
+    animation-delay: 5s;
+}
+    /* set-up animasi dengan membuat background di belakang tulisan h1 */
+#main-menu h1 span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0%;
+    background-color: #256D85;
+    animation: animasikotak 1s ease;
+    animation-delay: 1s;
+}
+#main-menu p span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0%;
+    background-color: #256D85;
+    animation: animasikotak 1s ease;
+    animation-delay: 3.5s;
+}
+    /* animasi untuk bagian span/background sama seperti h1 */
+#main-menu h1:nth-child(1) span{
+    animation-delay: 1.5s;
+}
+#main-menu h1:nth-child(2) span{
+    animation-delay: 2.5s;
+}
+#main-menu h1:nth-child(3) span{
+    animation-delay: 3.5s;
+}
+#main-menu p:nth-child(1) span{
+    animation-delay: 4.5s;
+}
+    /* mengedit bagian tombol menu portopolio */
+#main-menu .main-menu .ctn{
+    display: inline-block;
+    padding: 10px 30px; 
+    color: white;
+    background-color: transparent;
+    border: 2px solid #256D85;
+    font-size: 20px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    text-decoration: none;
+    
+
+}
+    /* mengedit bagian tombol menu agar punya hover */
+#main-menu .main-menu .ctn:hover{
+    color: black;
+    background-color: #256D85;
+    transition: .4s ease-in-out;
+}
+/* akhir section main-menu/header */
+
+
+/* keyframes animasi */
+@keyframes animasikotak{
+    50%{
+        width: 100%;
+        left: 0;  
+    }
+    100%{
+        width: 0;
+        left: 100%;
+    }
+}
+
+@keyframes animasitext{
+    100%{
+        color: white;
+    }
+
+    
+}
+@keyframes animasinama{
+    100%{
+        color: #3dc3e1;
+    }
+}
+
+
+/* Navigation Bar */
+body {
+    background-color: #256D85 !important;
+}
+.nav_navigationbar{
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5);
+
+}
+#header .nav .nav-link{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#navmenu, #navmenu-selected {
+    text-decoration: none;
+    color: white !important;
+    font-size: 26px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+#navmenu:hover{
+    color: #101719 !important;
+    font-size: 28px;
+    transform: all 0.3s ease-in-out;
+}
+
+.nav-item button{
+    margin-left: 500px;
+    text-decoration: none;
+    margin-top: 5px;
+    background-color: #256D85;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+.nav-item button:hover{
+    color: #101719;
+    transition: 0.3s ease-in-out;
+
+}
+
+
+/* akhir Navigation bar */
+
+
+
+
+
+
+
+
+
+
+/* Halaman utama setelah login */
+
+
+
+
+
+
+
+
+/* Bagian History */
+#content{
+    margin-top : 10em;
+    margin-bottom: 2em;
+}
+
+#svg{
+    margin-right: 4em;
+}
+
+#history_div{
+    margin-left: 1em;
+}
+
+#check {
+    font-size: 30px;
+    color: white;
+}
+
+#history{
+    background-color: #101719;
+    border-color: #44dff3;
+    border-width: 2px;
+    color:#44dff3;
+    width: 200px;
+    height: 50px;
+    box-shadow: inset 0 0 0 0 #44dff3;
+    transition: ease-out 0.2s;
+    font-size: 12px;
+}
+
+#history:hover{
+    box-shadow: inset 200px 0 0 0 #44dff3;
+    color:#101719;
+}
+/* akhir histori */
+/* akhir halaman utama setelah login */
+footer{
+    padding: 15px 0;
+    background-color: #333;
+    color: #f9f9f9;
+    text-align: center;
+}

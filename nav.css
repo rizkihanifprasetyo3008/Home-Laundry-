@@ -1,0 +1,39 @@
+body {
+    background-color: black !important;
+}
+.logo{
+    text-decoration:none !important;
+    font-family: 'Permanent Marker', cursive;
+    font-size:50px;
+    color:white;
+    padding-left: 1em;
+    float: left;
+}
+
+.logo:hover{
+    color: white;
+}
+#navmenu, #navmenu-selected {
+    text-decoration: none;
+    color: white !important;
+    font-family: italiana;
+    font-size: 26px;
+    margin-bottom: 2em;
+    transition: all 0.3s ease-in-out;
+}
+
+#navmenu:hover{
+    color: white !important;
+    font-size: 28px;
+}
+
+#navmenu-selected {
+    font-weight: bold;
+    color: #e96025 !important;
+}
+
+#navmenu-selected:hover{
+    color: #e96025 !important;
+    font-size: 28px;
+}
+
